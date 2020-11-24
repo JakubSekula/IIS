@@ -1,0 +1,53 @@
+TODO:
+implementacia:
+
+[] manage reservation pro admina nefacha, pri zalozeni hotelu ownerem // should be ?
+[] skontrolovat vsetky stranky validatorom.. https://validator.w3.org/
+
+
+[?] nedaju sa odstranovat uzivatelia
+[?] check jeslti nezmizi zaznamy z rezervaci pri odstraneni uzivatele
+
+
+[x] header->owner->u hotelu vidi neco jinak 
+[x] checkOwnership() upravit a zkontrolovat Owns selecty
+[x] ss@ss.sk nevidi manage resrevations v IIS hotel
+[x] owner muze zamestnat jen useru, kteri maji prava usera. Muze pridat ownera nebo receptionista, nikoho jineho
+[x] owner muze upravovat jinych useru, pridavat k jinym hotelu apod. Navic V nabidce prirazeni zamestancu do hotelu. muze volit i z jinych nez vlastnich. Navic si sam sobe muze menit prava  i na admina.
+[x] error page
+[x] editor.php bere paremater z url natvrdo, musi brat jen USER a hotel // ? i think its ok now
+[x] pri pridavani fotky k hotelu odebrat room_id a ten textfield
+[x] kontrola ID hotelu pri editore - ak tam zadam vymyslene ID a vyplnim udaje, failne to
+[x] Reservations okno popup    
+[x] ked sa meni stav objednavky, ktora nema principal, nemali by tam byt moznosti s tym spojene (awaiting payment, principal paid) (Lukas)
+[x] admin by mal mat moznost upravovat tabulku atributov izby - pridavat ich aj odoberat (Lukas)
+[x] pred tym ako neni zadany checkin nemoze byt zadany checkout (Lukas)
+[x] checkin/out moznost zadat len vtedy, ak je rezervacia confirmed (Lukas)
+[x] ak sa prida viac izieb jedneho hotelu, tak je kazdy druh izby cislovany od 0 - mal by pokracovat (Lukas)
+[x] okno pri editacii hocicoho -  dat prec modry ramik, nahradit to tienom (Kuba)
+[x] pridat tlacitko pay pri awaiting payment - bookAction.php
+[x] prava NONE nemat moznost zadat pri editacii usera (Lukas)
+[x] naopak pridat moznost zmeny hesla, ak to nebude tazke implementacne, nie je to zrovna hot issue (Lukas, do update.php ti jde parametr oldpasswrd a newpasswrd )
+[x] pri vytvarani izby nastavit principal by default na 0, ak tam neni nic, tak to neprejde (Lukas)
+[x] dat prec remove from FTP (Lukas)
+[x] room_id a info dat prec z tabulky fotiek (Lukas)
+[x] kontrola hesiel, ci su rovnake nefunguje (Lukas) 
+[x] pri editovani uzivatela chyba placeholder pre telefonne cislo, najit si pred admina stranku kde jsou uzivatele a zkusit nektereho bez cisla upravit (Lukas)
+[x] polia pri pridavani hotelu zmenit farbu, teraz to neni vidiet, mysleno pole stars (Lukas)
+[x] default datum na main page vyhladavani
+[x] presunut buttony manage hotel a manage resrevations do hotelu (Martin)
+[x] search na main page - doplnit aj filtrovanie podla poctu osob
+[x] prava NONE - potrebne? robi to zmatok, neda sa to nijako rozumne interpretovat
+[x] pri editacii profilu nemat moznost zmenit email (co keby zada email, ktory je uz v db?)
+[x] rozne atributy izby - tv, minibar, vana, ... filtrovanie podla tyhcto atributov
+[x] hviezdicky v rezervaciach hotela zmenit na cisla
+[x] zrusit povinnost hesla pri neregistrovanom uzivatelovi
+[x] editacia usera bug s & // should be fixed, check pls (Perina)
+[x] kontrola prav pri kazdej stranke // should be fixed, check pls (Perina)
+[x] ochrana pred dostanim se na stranku pres url -- // should be fixed, check pls (Perina)
+[x] ak nema hotel zadany rating od uzivatelov, nepisat ho ako '0' ale '-'
+
+dokumentacia:
+[] v dokumentacii spomenut, ze pouzivame datepicker z https://www.daterangepicker.com/
+[] v dokumentacii spomenut, ze pouzivame datatables z https://datatables.net/
+

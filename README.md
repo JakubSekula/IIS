@@ -1,7 +1,8 @@
-#IIS Hotel: rezervace a správa ubytování 
-:
-Popis varianty:
-Úkolem zadání je vytvořit informační systém pro rezervace a správu ubytování v řetězci hotelů. Každý hotel má nějaké označení, pomocí kterého ho jeho zákazníci budou moci vhodně odlišit, vlastní nabídku ubytování a další atributy (např. adresa, popis, počet hvězd, hodnocení zákazníků apod.). Nabídka ubytování se skládá z různých typů pokojů lišících se cenou za noc. Pokoje mají různé vlastnosti: typ (standard, business, apod.), počet lůžek, vybavení, volitelný obrázek, apod. Uživatelé budou moci informační systém použít jak pro správu hotelů a ubytování, tak pro rezervaci pokojů a správu objednávek - a to následujícím způsobem:
+#IIS 
+#Hotel: rezervace a správa ubytování 
+
+    Popis varianty:
+    Úkolem zadání je vytvořit informační systém pro rezervace a správu ubytování v řetězci hotelů. Každý hotel má nějaké označení, pomocí kterého ho jeho zákazníci budou moci vhodně odlišit, vlastní nabídku ubytování a další atributy (např. adresa, popis, počet hvězd, hodnocení zákazníků apod.). Nabídka ubytování se skládá z různých typů pokojů lišících se cenou za noc. Pokoje mají různé vlastnosti: typ (standard, business, apod.), počet lůžek, vybavení, volitelný obrázek, apod. Uživatelé budou moci        informační systém použít jak pro správu hotelů a ubytování, tak pro rezervaci pokojů a správu objednávek - a to následujícím způsobem:
 
     administrátor:
         spravuje uživatele
@@ -26,4 +27,4 @@ Popis varianty:
         (b) má možnost filtrovat položky nabídek dle různých vlastností (např. počet postelí, kvalita, vybavení apod.)
         může provést rezervaci 1 až N pokojů bez registrace: vyžadujte vhodné údaje (má možnost dokončit registraci a stát se zákazníkem)
 
-Každý registrovaný uživatel má možnost editovat svůj profil.
+    Každý registrovaný uživatel má možnost editovat svůj profil.

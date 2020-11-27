@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Počítač: mysql57.websupport.sk:3311
--- Vytvořeno: Pát 27. lis 2020, 19:08
+-- Vytvořeno: Pát 27. lis 2020, 19:16
 -- Verze serveru: 5.7.25-28-log
 -- Verze PHP: 7.4.9
 
@@ -437,7 +437,8 @@ INSERT INTO `User` (`id`, `name`, `surname`, `phone_number`, `email`, `password`
 (0, 'Nonregistred', 'Nonregistred', '', 'nonregistred@planaxis.space', '$2y$10$zF6zLIYrOzoRJMvpqsoqo.nyYYmfO12/rwUzWpzSvuQ2e1MUZQhWq', 0, NULL),
 (1, 'Admin', 'Adminer', '111 111 111', 'admin@planaxis.space', '$2y$10$Er8SOg1uyuG.CwnBmQahue6y3PTjr1L0eHHenEjOpJGC59GJCOI4m', 1, 'Testerova 2'),
 (102, 'Owner', 'Owneros', '444 556 777', 'owner@planaxis.space', '$2y$10$3mwxLUvvTWFjvZcNS5sJZuXJxC.VZTbWbmJkuhWHqhHdXv2xqNhyC', 2, ''),
-(103, 'Receptionist', 'Reception', '789 541 264', 'receptionist@planaxis.space', '$2y$10$NnThCHkpz2oAhneD5Qaf1elnpJCu4ULJ.jw4sc2ihyOa/CFi/CR5q', 3, '');
+(103, 'Receptionist', 'Reception', '789 541 264', 'receptionist@planaxis.space', '$2y$10$NnThCHkpz2oAhneD5Qaf1elnpJCu4ULJ.jw4sc2ihyOa/CFi/CR5q', 3, ''),
+(104, 'User', 'Registered', '', 'user@planaxis.space', '$2y$10$g1pz8PPDorEt8mWzbPcAGuLmc0IAHyirgULmnI8VhipVl37VcUpSy', 4, NULL);
 
 --
 -- Klíče pro exportované tabulky
@@ -611,7 +612,7 @@ ALTER TABLE `State`
 -- AUTO_INCREMENT pro tabulku `User`
 --
 ALTER TABLE `User`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=104;
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=105;
 
 --
 -- Omezení pro exportované tabulky
